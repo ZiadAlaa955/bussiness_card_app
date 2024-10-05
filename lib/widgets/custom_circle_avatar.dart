@@ -7,11 +7,11 @@ class CustomCircleAvatar extends StatelessWidget {
   Widget build(BuildContext context) {
     return const CircleAvatar(
       backgroundColor: Colors.white,
-      radius: 70,
+      radius: 100,
       child: CircleAvatar(
-        radius: 69.5,
+        radius: 99.25,
         backgroundImage: AssetImage(
-          'assets/images/458084233_2317751738565005_8644600528045806649_n.jpg',
+          'assets/images/tharwat.png',
         ),
       ),
     );
